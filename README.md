@@ -17,10 +17,16 @@ And tools
 
 ## Usage
 
+```
+pip install minagent
+```
+
 ### Create an Agent
 
 ```python
 from openai import OpenAI
+from minagent import Agent
+
 openai_client = OpenAI(
     api_key="00000"
 )
@@ -33,7 +39,7 @@ clock = Agent(
     openai_client,
     name='clock',
     model='gpt-4o',
-    sentences=['You are a time aware assistant.',],
+    instructions=['You are a time aware assistant.',],
 
     # optional: only add below if using assistant api
     openai_asst_id='asst_0000'
