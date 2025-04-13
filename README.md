@@ -1,6 +1,7 @@
 # MinAgent
 
-An agent wrapper over OpenAI Compatible API.
+Agent is a wrapper on top of OpenAI chat completion API and assistant API.
+It handles `tool_call`, `file_search` within the class
 
 ## Features
 
@@ -74,3 +75,7 @@ response = clock.ask_assistant(
     ]
 )
 ```
+
+## Future
+
+- Support for Response API
