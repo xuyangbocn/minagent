@@ -17,7 +17,7 @@ NOT_GIVEN = NotGiven()
 
 class Agent(object):
     '''
-    Agent is similar to beta OpenAI Assistant concept and is a wrapper on top of OpenAI chat completion API and assistant API.
+    Agent is a wrapper on top of OpenAI chat completion API and assistant API.
 
     It handles `tool_call`, `file_search` within the class
     '''
