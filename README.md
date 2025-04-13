@@ -79,3 +79,5 @@ response = clock.ask_assistant(
 ## Future
 
 - Support for Response API
+- Add test cases
+- Release pipeline
