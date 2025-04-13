@@ -1,6 +1,6 @@
 # MinAgent
 
-Agent is a wrapper on top of OpenAI chat completion API and assistant API.
+Agent is a wrapper on top of OpenAI chat completion and assistant API.
 It handles `tool_call`, `file_search` within the class
 
 ## Features
